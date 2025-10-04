@@ -9,7 +9,8 @@ CORS(app)
 
 
 # Load model
-model = joblib.load("../models/crop_yield_model.pkl")
+model = joblib.load("models/crop_yield_model.pkl")
+
 
 @app.route("/")
 def home():
